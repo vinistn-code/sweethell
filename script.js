@@ -48,12 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   dataAtualizacaoEl.textContent = `Última atualização: ${dataFormatada}`;
 
-  /**
-   *  Estrutura das Regras:
-   *  - Para adicionar novas categorias ou regras, basta seguir o padrão abaixo.
-   *  - Você pode usar HTML básico (<b>, <i>, <u>, etc.) nas regras para dar destaque.
-   */
-
   const regras = {
     "Comportamento entre ADMs": [
       "É fundamental que os ADMs se comportem de maneira respeitosa e profissional entre si. Desentendimentos devem ser resolvidos no <b>privado</b> ou em um grupo reservado para ADMs, nunca no grupo principal.",
@@ -102,7 +96,18 @@ document.addEventListener("DOMContentLoaded", function () {
       "Além disso, os ADMs podem citar mensagens relevantes de vez em quando, pedindo que os membros compartilhem o link do grupo com seus amigos ou convidem novos membros.",
       "Incentivem os membros a adicionar amigos ao grupo e a se engajar nas discussões, criando uma comunidade mais ativa e engajada. Isso pode ser feito de maneira amigável e com foco no benefício de todos no grupo.",
     ],
+    "Mensagens Pre-Configuradas": [
+      // Link para baixar o PDF
+      'Clique no botão para baixar o PDF com as mensagens pre-configuradas:➡️ <button id="baixarPDF">Baixar PDF</button>'
+    ]
   };
+
+  // Função para abrir o PDF ao clicar no botão
+  document.addEventListener("click", function (event) {
+    if (event.target && event.target.id === "baixarPDF") {
+      window.open("https://github.com/vinistn-code/sweethell/raw/main/mensagens-pre-configuradas.pdf", "_blank");
+    }
+  });
 
   // Renderizar as Regras
   function renderRegras() {
