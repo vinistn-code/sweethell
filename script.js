@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ],
     "Mensagens Pre-Configuradas": [
       // Link para baixar o PDF
-      'Clique no botão para baixar o PDF com as mensagens pre-configuradas:➡️ <button id="baixarPDF">Baixar PDF</button>'
+      'Clique no botão para ver as mensagens pre-configuradas:➡️ <button id="baixarPDF">VER MENSAGENS</button>'
     ]
   };
 
