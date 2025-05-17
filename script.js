@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Função para abrir o PDF ao clicar no botão
   document.addEventListener("click", function (event) {
     if (event.target && event.target.id === "baixarPDF") {
-      window.open("https://github.com/vinistn-code/sweethell/raw/main/mensagens-pre-configuradas.pdf", "_blank");
+      window.open("https://github.com/vinistn-code/sweethell/raw/main/mensagens-pre-configuradas.txt", "_blank");
     }
   });
 
