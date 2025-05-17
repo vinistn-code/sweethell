@@ -102,6 +102,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "Além disso, os ADMs podem citar mensagens relevantes de vez em quando, pedindo que os membros compartilhem o link do grupo com seus amigos ou convidem novos membros.",
       "Incentivem os membros a adicionar amigos ao grupo e a se engajar nas discussões, criando uma comunidade mais ativa e engajada. Isso pode ser feito de maneira amigável e com foco no benefício de todos no grupo.",
     ],
+    "Mensagens Pre-Configuradas": [
+      'Clique no link para baixar o PDF com as mensagens pre-configuradas: <a href="https://github.com/vinistn-code/sweethell/raw/main/mensagens-pre-configuradas.pdf
+" target="_blank">Baixar PDF</a>'
+    ],
   };
 
   // Renderizar as Regras
